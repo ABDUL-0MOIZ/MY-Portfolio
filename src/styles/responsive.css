@@ -1,0 +1,55 @@
+/* ---------- desktop ---------- */
+@media (min-width:768px){
+  nav.bottom{display:none}
+  footer{padding-bottom:36px}
+  .menu{display:flex}
+  .kbd{display:block}
+  .wrap{padding:0 32px}
+  .hero{padding:24px 0 96px}
+  .scroll-cue{display:flex}
+  .services-grid{grid-template-columns:repeat(3,1fr);gap:18px}
+  .card{padding:28px 22px}
+  .svc h3{font-size:16px}.svc p{font-size:11.5px}
+  .skill-grid{grid-template-columns:repeat(4,1fr);gap:14px}
+  .tile{padding:18px 16px}
+  .tabs{justify-content:center;margin:0 0 28px;padding:2px 0}
+  .about{max-width:none;display:grid;grid-template-columns:280px 1fr;gap:56px;text-align:left;align-items:start}
+  .about-side{text-align:center}
+  .portrait{width:210px;height:210px;margin:64px auto}
+  .chips{justify-content:flex-start}
+  .about-text{font-size:15px}
+  section.block{padding:120px 0 30px}
+  .cfg-body,.msg-card{padding:30px}
+  .row-2{grid-template-columns:1fr 1fr}
+}
+@media (min-width:900px){
+  .hero-grid{grid-template-columns:1.05fr .95fr;gap:24px}
+  .hero-copy{text-align:left}
+  .hero-visual{order:2;height:min(72vh,580px)}
+  .hero h1{font-size:clamp(46px,7.4vw,96px)}
+  .lead{margin-left:0}
+  .socials{justify-content:flex-start}
+  .cta-row{grid-template-columns:auto auto;justify-content:start;max-width:none}
+  .stats{margin-left:0}
+  .contact-grid{grid-template-columns:1fr 1fr;align-items:start}
+  .steps{padding:0;max-width:980px}
+  .steps::before,.steps .fill{left:50%;margin-left:-1px}
+  .step{width:50%;padding-right:52px}
+  .step:nth-of-type(even){margin-left:50%;padding-right:0;padding-left:52px}
+  .dot{left:auto;right:-16px}
+  .step:nth-of-type(even) .dot{right:auto;left:-16px}
+  /* horizontal pinned portfolio */
+  section.hs{padding:0}
+  .hs-pin{height:100vh;display:flex;align-items:center;overflow:hidden}
+  .hs-track{flex-direction:row;gap:28px;padding:0 8vw;max-width:none;margin:0;align-items:stretch;will-change:transform}
+  .hs-intro{flex:none;width:min(430px,34vw);display:flex;flex-direction:column;justify-content:center}
+  .hs-intro .sec-head{margin-bottom:0}
+  .hint{display:block}
+  .proj{flex:none;width:min(540px,42vw)}
+  .hs-end{flex:none;width:min(340px,28vw);display:grid;place-items:center;text-align:center;padding-right:4vw}
+  .hs-end p{font-size:22px;font-weight:600;margin:0 0 16px;letter-spacing:-.01em}
+}
+@media (prefers-reduced-motion:reduce){
+  .portrait .photo,.hire-badge,.hud,.ring,.cho>span,.portrait .photo::after,.caret,.scroll-cue i{animation:none}
+  #loader{display:none}
+}
