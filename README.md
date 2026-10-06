@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Abdul Moeez — Developer Portfolio
 
 A modern, responsive developer portfolio built with **React, TypeScript, Tailwind CSS, and animations**.
@@ -152,3 +153,6 @@ This project is created for personal portfolio and professional showcase purpose
 ---
 
 ⭐ If you like this portfolio, feel free to give the repository a star!
+=======
+
+>>>>>>> cc93a767b8256634874d6f23be706ddce3c03c45
